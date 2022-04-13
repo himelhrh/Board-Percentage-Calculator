@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Project {
 
     public static void main(String args[]) {
-        System.out.println("\t\t*******************************************");
+        System.out.println("\t\t***************************************************");
         System.out.println("\t\t\tBoard Percentage Calculator System");
-        System.out.println("\t\t*******************************************");
-        System.out.println("\t\t\t    --------------------");
+        System.out.println("\t\t***************************************************");
+        System.out.println("\t\t\t    -----------------------");
         System.out.println("\t\t\tDaffodil International University");
-        System.out.println("\t\t\t    --------------------");
+        System.out.println("\t\t\t    -----------------------");
 
         try (Scanner sc = new Scanner(System.in)) {
 
@@ -29,7 +29,7 @@ public class Project {
 // Total
             int total = sub1 + sub2 + sub3;
 
-            System.out.println("Total = " + total);
+            System.out.println("Total Marks:= " + total);
 
 // Percentage
             float percent = (float) total / 300 * 100;
@@ -62,13 +62,16 @@ public class Project {
                 System.out.println("Lowest marks scored is " + sub3);
             }
 // Average
-            float avg = (float) total / 2;
+            float avg = (float) total / 3;
 
             System.out.println("Average is " + avg);
-            System.out.println("\n*****************************************");
-            System.out.println(" \t\t Thank You :) ");
-            System.out.println("*****************************************");
-            System.out.println("\t</> Code by Himel & Kashfea\n");
+
+            System.out.println("\t\t***************************************************");
+            System.out.println("\t\t\t              THANK YOU");
+            System.out.println("\t\t***************************************************");
+            System.out.println("\t\t\t    -----------------------------");
+            System.out.println("\t\t\t      </>Code by Himel & Kashfea");
+            System.out.println("\t\t\t    -----------------------------");
 
         }
 
